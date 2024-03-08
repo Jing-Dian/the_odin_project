@@ -1,0 +1,28 @@
+.first{
+    background-color: rgb(0,0,0);
+    color:#ffffff;
+    font-weight:bold;
+    /* bold is font-weight */
+}
+
+.second{
+    background-color: hwb(64 2% 7%);
+}
+button{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+
+/* another more specfic way
+.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+} */
+
+/* 
+we use quotes due to the whitespace between words 
+type selector has no dot in front of the word
+
+*/ 
