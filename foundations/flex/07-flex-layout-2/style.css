@@ -1,0 +1,82 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .header {
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    /* the content size is not changed */
+    
+  }
+  
+  .content{
+    flex: 1;
+    display: flex;
+  }
+  
+    .sidebar {
+        width: 300px;
+        background: royalblue;
+        box-sizing: border-box;
+
+        flex-shrink:0;
+
+        padding:16px;
+    }
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* margin & padding 0 makes sure the text is stick to the top left of the content*/
+    }
+    
+    a{
+        text-decoration: none;
+        color: #eee;
+        font-size: 24px;
+        /* better to but the txt change here */
+    }
+
+    .deck{
+        padding:48px;
+        display: flex;
+        flex-wrap: wrap;
+        /* it wraps the element in  a clock-wise way */
+        gap:32px;
+    }
+
+    .card {
+        border: 1px solid #eee;
+        box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+        border-radius: 4px;
+
+        padding: 16px;
+        width: 300px;
+        /* size of the card width , if the card doesn't fit into the same line, it will go to next line*/
+    }
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Arrange CSS codes in order of inclusion */
+  
+  
+
+  
